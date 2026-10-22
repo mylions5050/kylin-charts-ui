@@ -605,3 +605,62 @@ html.dark {
     padding: 0 22px;
   }
 }
+
+// ============ 主页手机端（≤768px） ============
+@media (max-width: 768px) {
+  .home-page__nav {
+    padding: 0 16px;
+    height: 52px;
+  }
+
+  .home-page__nav-links {
+    gap: 14px;
+  }
+
+  .home-page__nav-link,
+  .home-page__nav-theme {
+    font-size: 13px;
+  }
+
+  .home-page__hero {
+    padding: 96px 16px 48px;
+  }
+
+  .home-page__badge {
+    font-size: 11px;
+    padding: 5px 12px;
+  }
+
+  .home-page__title {
+    font-size: 38px;
+  }
+
+  .home-page__slogan {
+    font-size: 15px;
+  }
+
+  .home-page__sub {
+    font-size: 13px;
+  }
+
+  .home-page__cta {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home-page__cta-main,
+  .home-page__cta-ghost {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+
+  .home-page__stage {
+    padding: 16px;
+  }
+
+  .home-page__panel {
+    height: 150px;
+  }
+}

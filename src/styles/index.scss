@@ -742,3 +742,167 @@ html.dark {
   }
 }
 
+
+// ============================================================
+// 手机适配（≤768px）：抽屉侧栏 + 内容区单列（不属于图表库本体）
+// ============================================================
+
+// 汉堡按钮：桌面端隐藏，≤768px 显示在 header 左侧
+.app-layout__menu-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 34px;
+  height: 34px;
+  padding: 0 7px;
+  border: none;
+  border-radius: tokens.$k-radius-sm;
+  background: transparent;
+  cursor: pointer;
+
+  .app-layout__menu-line {
+    height: 2px;
+    border-radius: 2px;
+    background: tokens.$k-title-color;
+  }
+
+  &:hover {
+    background: rgba(tokens.$k-color-primary, 0.08);
+  }
+}
+
+.app-layout__header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.app-layout__overlay {
+  position: fixed;
+  top: $app-header-height;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 90;
+  background: rgba(0, 0, 0, 0.42);
+}
+
+@media (max-width: 768px) {
+  .app-layout__header {
+    padding: 0 12px;
+  }
+
+  .app-layout__menu-btn {
+    display: flex;
+  }
+
+  .app-layout__logo {
+    font-size: 16px;
+  }
+
+  .app-layout__theme-btn {
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+
+  // 侧栏改为屏外抽屉，点击汉堡滑出
+  .app-layout__sidebar {
+    width: 240px;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+  }
+
+  .app-layout--menu-open {
+    .app-layout__sidebar {
+      transform: translateX(0);
+      box-shadow: 8px 0 24px rgba(0, 0, 0, 0.28);
+    }
+  }
+
+  .app-layout__main {
+    margin-left: 0;
+  }
+
+  // Demo 页：收紧内边距，块头允许换行
+  .demo-page {
+    padding: 20px 12px 48px;
+  }
+
+  .demo-page__block-header {
+    flex-wrap: wrap;
+    gap: 4px 12px;
+  }
+
+  .demo-page__block-body {
+    padding: 12px;
+  }
+
+  // 图表总览：单列卡片，收紧留白
+  .overview-page {
+    width: 100%;
+    padding: 24px 12px 48px;
+  }
+
+  .overview-page__hero {
+    margin-bottom: 28px;
+  }
+
+  .overview-page__title {
+    font-size: 24px;
+  }
+
+  .overview-page__grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .overview-page__card-preview {
+    height: 200px;
+  }
+
+  // 详情页：单列，收紧留白
+  .detail-page {
+    width: 100%;
+    padding: 24px 12px 48px;
+  }
+
+  .detail-page__title {
+    font-size: 22px;
+  }
+
+  .detail-page__header {
+    flex-wrap: wrap;
+    gap: 6px 12px;
+  }
+
+  .detail-page__card-header {
+    flex-wrap: wrap;
+    gap: 8px 12px;
+  }
+
+  .detail-page__card-body {
+    .detail-page__preview {
+      min-height: 340px;
+      padding: 12px;
+    }
+
+    .detail-page__code .detail-page__code-pre {
+      padding: 14px 16px;
+      font-size: 11px;
+    }
+  }
+}
+
+// 手机端汉堡/遮罩的暗色适配
+html.dark {
+  .app-layout__menu-btn {
+    .app-layout__menu-line {
+      background: #c9cdd4;
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+}

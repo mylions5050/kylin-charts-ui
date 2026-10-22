@@ -12,13 +12,17 @@ export default defineComponent({
     const route = useRoute()
     const mainWrap = ref<HTMLElement | null>(null)
 
+    // 手机端抽屉侧栏开关（≤768px 生效，桌面端由 CSS 隐藏入口）
+    const menuOpen = ref(false)
+
     // 主页是沉浸式落地页：不带后台 header/侧栏，由 HomeView 自行全屏渲染
     const isHome = computed(() => route.path === '/')
 
-    // 路由切换时把主内容区滚回顶部（SPA 不会自动重置）
+    // 路由切换时把主内容区滚回顶部（SPA 不会自动重置），并收起手机抽屉菜单
     watch(
       () => route.path,
       () => {
+        menuOpen.value = false
         const view = mainWrap.value?.querySelector('.k-scroll__view')
         if (view) view.scrollTop = 0
       }
@@ -29,15 +33,27 @@ export default defineComponent({
       if (view) view.scrollTop = 0
     })
 
-    return () =>
-      isHome.value ? (
-        <router-view />
-      ) : (
-        <div class="app-layout">
+  return () =>
+    isHome.value ? (
+      <router-view />
+    ) : (
+      <div class={['app-layout', { 'app-layout--menu-open': menuOpen.value }]}>
         <header class="app-layout__header">
-          <router-link to="/" class="app-layout__logo-link">
-            <h1 class="app-layout__logo">KCharts</h1>
-          </router-link>
+          <div class="app-layout__header-left">
+            <button
+              class="app-layout__menu-btn"
+              type="button"
+              aria-label="切换导航菜单"
+              onClick={() => (menuOpen.value = !menuOpen.value)}
+            >
+              <span class="app-layout__menu-line" />
+              <span class="app-layout__menu-line" />
+              <span class="app-layout__menu-line" />
+            </button>
+            <router-link to="/" class="app-layout__logo-link">
+              <h1 class="app-layout__logo">KCharts</h1>
+            </router-link>
+          </div>
           <button class="app-layout__theme-btn" type="button" onClick={toggleTheme}>
             {isDark.value ? '☀ 亮色' : '☾ 暗色'}
           </button>
@@ -76,6 +92,9 @@ export default defineComponent({
             </nav>
           </KScroll>
         </aside>
+        {menuOpen.value && (
+          <div class="app-layout__overlay" onClick={() => (menuOpen.value = false)} />
+        )}
         <main class="app-layout__main" ref={mainWrap}>
           <KScroll class="app-layout__main-scroll">
             <router-view />
