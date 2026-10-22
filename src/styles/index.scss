@@ -1,0 +1,744 @@
+@use './tokens.scss';
+@use './home.scss';
+@use './chart.scss';
+
+
+// ============================================================
+// 应用布局：固定左侧导航 + 内容区（不属于图表库本体）
+// ============================================================
+
+body {
+  margin: 0;
+}
+
+$app-sidebar-width: 200px;
+$app-header-height: 56px;
+
+.app-layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden; // 主内容区交给 KScroll 滚动，隐藏窗口级原生滚动条（不占布局宽度，内容真正居中）
+
+  // 顶部通栏 header：品牌名居左，亮暗切换居右
+  &__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: $app-header-height;
+    box-sizing: border-box;
+    padding: 0 tokens.$k-spacing-xl;
+    background: #fff;
+    border-bottom: 1px solid tokens.$k-border-color;
+  }
+
+  &__logo {
+    margin: 0;
+    font-size: tokens.$k-font-size-lg;
+    color: tokens.$k-title-color;
+  }
+
+  &__theme-btn {
+    // 与首页 home-page__nav-link / nav-theme 同款胶囊样式
+    padding: 7px 16px;
+    border: 1px solid rgba(29, 33, 41, 0.14);
+    border-radius: 999px;
+    background: transparent;
+    font-size: 13px;
+    color: #4e5969;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+
+    &:hover {
+      color: #1d2129;
+      background: rgba(29, 33, 41, 0.06);
+    }
+  }
+
+  &__sidebar {
+    position: fixed;
+    top: $app-header-height;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    width: $app-sidebar-width;
+    box-sizing: border-box;
+    background: #fff;
+    border-right: 1px solid tokens.$k-border-color;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__nav-scroll {
+    flex: 1;
+    min-height: 0;
+  }
+
+  &__nav {
+    // 内边距放在内容层而非侧栏容器，KScroll 占满侧栏宽度，滚动条贴在菜单最右缘
+    display: flex;
+    flex-direction: column;
+    gap: tokens.$k-spacing-xs;
+    padding: tokens.$k-spacing-lg;
+  }
+
+  &__nav-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: tokens.$k-spacing-sm tokens.$k-spacing-md;
+    border-radius: tokens.$k-radius-sm;
+    font-size: tokens.$k-font-size-md;
+    color: tokens.$k-text-color;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+
+    .chart-icon {
+      flex: none;
+      width: 15px;
+      height: 15px;
+      opacity: 0.85;
+    }
+
+    &:hover {
+      background: rgba(tokens.$k-color-primary, 0.06);
+      color: tokens.$k-title-color;
+    }
+
+    &--active,
+    &--active:hover {
+      background: rgba(tokens.$k-color-primary, 0.1);
+      color: tokens.$k-color-primary;
+      font-weight: 600;
+    }
+  }
+
+  &__main {
+    flex: 1;
+    height: calc(100vh - $app-header-height);
+    margin-top: $app-header-height;
+    margin-left: $app-sidebar-width;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  // 主内容区自定义滚动条容器（页面最右侧，悬浮式不占布局宽度）
+  &__main-scroll {
+    height: 100%;
+  }
+}
+
+// ============================================================
+// Demo 页（BEM：demo-page 块，不属于图表库本体）
+// ============================================================
+
+.demo-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+
+  &__title {
+    margin: 0 0 tokens.$k-spacing-xl;
+    font-size: tokens.$k-font-size-xl;
+    color: tokens.$k-title-color;
+  }
+
+  &__block {
+    margin-bottom: tokens.$k-spacing-xl;
+  }
+
+  &__block-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: tokens.$k-spacing-md;
+    font-size: tokens.$k-font-size-md;
+    font-weight: 600;
+    color: tokens.$k-title-color;
+
+    span:last-child {
+      font-size: tokens.$k-font-size-xs;
+      font-weight: 400;
+      color: tokens.$k-text-color;
+    }
+  }
+
+  &__block-body {
+    padding: tokens.$k-spacing-lg;
+    border: 1px solid tokens.$k-border-color;
+    border-radius: tokens.$k-radius-md;
+  }
+}
+
+// ============================================================
+// 暗色模式：<html class="dark"> 驱动（use-theme 切换）
+// 仅覆盖壳层 / demo 页 / 图表容器的中性色，场景图内色值由 darkTheme 负责
+// ============================================================
+
+html.dark {
+  body {
+    background: #17181d;
+  }
+
+  .app-layout__header {
+    background: #1d1e25;
+    border-bottom-color: #2e2f38;
+  }
+
+  .app-layout__logo {
+    color: #f2f3f5;
+  }
+
+  .app-layout__theme-btn {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.22);
+    color: rgba(255, 255, 255, 0.82);
+
+    &:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  .app-layout__sidebar {
+    background: #1d1e25;
+    border-right-color: #2e2f38;
+  }
+
+  .app-layout__nav-item {
+    color: #a9aeb8;
+
+    &:hover {
+      background: rgba(124, 92, 252, 0.16);
+      color: #f2f3f5;
+    }
+
+    &--active,
+    &--active:hover {
+      background: rgba(124, 92, 252, 0.24);
+      color: #b9a5ff;
+    }
+  }
+
+  .demo-page__title,
+  .demo-page__block-header {
+    color: #f2f3f5;
+  }
+
+  .demo-page__block-header span:last-child {
+    color: #a9aeb8;
+  }
+
+  .demo-page__block-body {
+    border-color: #2e2f38;
+  }
+}
+
+// ============================================================
+// 站点壳层扩展：分组导航 / 首页总览 / 图表详情页（不属于图表库本体）
+// ============================================================
+
+.app-layout__logo-link {
+  text-decoration: none;
+}
+
+.app-layout__nav-group {
+  display: flex;
+  flex-direction: column;
+  gap: tokens.$k-spacing-xs;
+  margin-top: tokens.$k-spacing-md;
+  padding-top: tokens.$k-spacing-md;
+  border-top: 1px solid tokens.$k-border-color;
+}
+
+.app-layout__nav-group-label {
+  padding: 0 tokens.$k-spacing-md;
+  font-size: tokens.$k-font-size-xs;
+  color: tokens.$k-empty-color;
+  user-select: none;
+}
+
+.lazy-mount {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+// ---------- 首页总览 ----------
+
+.overview-page {
+  width: 95%;
+  margin: 0 auto;
+  padding: 40px 0 72px;
+}
+
+.overview-page__hero {
+  margin-bottom: 48px;
+}
+
+.overview-page__title {
+  margin: 0 0 8px;
+  font-size: 32px;
+  color: tokens.$k-title-color;
+}
+
+.overview-page__slogan {
+  margin: 0 0 6px;
+  font-size: tokens.$k-font-size-lg;
+  color: tokens.$k-text-color;
+}
+
+.overview-page__stats {
+  margin: 0;
+  font-size: tokens.$k-font-size-sm;
+  color: tokens.$k-empty-color;
+}
+
+.overview-page__group + .overview-page__group {
+  margin-top: 40px;
+}
+
+.overview-page__group-title {
+  margin: 0 0 16px;
+  font-size: tokens.$k-font-size-xl;
+  color: tokens.$k-title-color;
+}
+
+.overview-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.overview-page__card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid tokens.$k-border-color;
+  border-radius: tokens.$k-radius-md;
+  background: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+
+  &:hover {
+    border-color: tokens.$k-color-primary;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+  }
+}
+
+.overview-page__card-preview {
+  height: 240px;
+  padding: 8px 8px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.overview-page__card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-top: 1px solid tokens.$k-border-color;
+}
+
+.overview-page__card-title {
+  font-size: tokens.$k-font-size-md;
+  font-weight: 600;
+  color: tokens.$k-title-color;
+}
+
+.overview-page__card-count {
+  font-size: tokens.$k-font-size-xs;
+  color: tokens.$k-empty-color;
+}
+
+// ---------- 图表详情页 ----------
+
+.detail-page {
+  width: 95%;
+  margin: 0 auto;
+  padding: 40px 0 72px;
+}
+
+.detail-page__header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.detail-page__title {
+  margin: 0;
+  font-size: tokens.$k-font-size-xl;
+  color: tokens.$k-title-color;
+}
+
+.detail-page__meta {
+  font-size: tokens.$k-font-size-xs;
+  color: tokens.$k-empty-color;
+}
+
+.detail-page__card {
+  border: 1px solid tokens.$k-border-color;
+  border-radius: tokens.$k-radius-md;
+  background: #fff;
+  overflow: hidden;
+
+  + .detail-page__card {
+    margin-top: 32px;
+  }
+}
+
+.detail-page__card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 16px;
+  border-bottom: 1px solid tokens.$k-border-color;
+}
+
+.detail-page__card-titles {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  min-width: 0;
+}
+
+.detail-page__card-title {
+  font-size: tokens.$k-font-size-md;
+  font-weight: 600;
+  color: tokens.$k-title-color;
+}
+
+.detail-page__card-desc {
+  font-size: tokens.$k-font-size-xs;
+  color: tokens.$k-text-color;
+}
+
+.detail-page__card-actions {
+  display: flex;
+  flex-shrink: 0;
+  gap: 8px;
+}
+
+.detail-page__action-btn {
+  padding: 4px 12px;
+  border: 1px solid tokens.$k-border-color;
+  border-radius: tokens.$k-radius-sm;
+  background: transparent;
+  font-size: tokens.$k-font-size-xs;
+  color: tokens.$k-text-color;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    border-color: tokens.$k-color-primary;
+    color: tokens.$k-color-primary;
+  }
+}
+
+.detail-page__card-body {
+display: grid;
+grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+// 锁定行高：防止超高内容（如未约束的图例列）撑大 auto 行，破坏内部 100% 高度链
+grid-template-rows: minmax(0, 1fr);
+height: 600px;
+
+  &--no-code {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+// 左侧代码区：KScroll 容器，代码自动换行、不出横向滚动条
+.detail-page__code {
+  min-width: 0;
+  border-right: 1px solid tokens.$k-border-color;
+  // 视口外跳过渲染：高亮代码 DOM 庞大，滚动时反复参与绘制会造成
+  // KScroll 拇指（rAF 驱动）冻结后跳位；auto + 记忆尺寸即可消除卡顿
+  content-visibility: auto;
+  contain-intrinsic-size: auto 520px;
+
+  .detail-page__code-pre {
+    margin: 0;
+    padding: 20px 24px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-family: 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace;
+    font-size: 12px;
+    line-height: 1.8;
+
+    code.hljs {
+      padding: 0;
+      background: transparent;
+    }
+  }
+}
+
+.detail-page__preview {
+display: flex;
+flex-direction: column;
+padding: 20px 24px;
+min-width: 0;
+min-height: 0;
+
+  .lazy-mount {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  // demo 组件自带块头/边框，嵌入详情页时去壳（标题已提取到卡片头）
+  .demo-page__block {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .demo-page__block-header {
+    display: none;
+  }
+
+  .demo-page__block-body {
+    flex: 1;
+    min-height: 0;
+    height: auto !important; // demo 内部可能写了固定高度，预览区一律填满
+    padding: 0;
+    border: none;
+  }
+
+  // 画布高度默认 100%：覆盖 demo 传入的固定 height，图表随容器自适应并垂直居中
+  .k-chart {
+    height: 100% !important;
+  }
+}
+
+// ---------- highlight.js 配色（自写，适配亮暗主题） ----------
+
+.hljs {
+  color: #383a42;
+}
+
+.hljs-tag,
+.hljs-name {
+  color: #e45649;
+}
+
+.hljs-attr {
+  color: #986801;
+}
+
+.hljs-string {
+  color: #50a14f;
+}
+
+.hljs-comment,
+.hljs-doctag {
+  color: #a0a1a7;
+}
+
+.hljs-number,
+.hljs-literal {
+  color: #986801;
+}
+
+.hljs-title,
+.hljs-built_in {
+  color: #4078f2;
+}
+
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #a626a4;
+}
+
+// ---------- KScroll 自定义滚动条 ----------
+
+.k-scroll {
+  position: relative;
+  height: 100%;
+  min-height: 0;
+
+  &__view {
+    height: 100%;
+    overflow: auto;
+    overscroll-behavior: contain;
+
+    // 原生滚动条纯 CSS 定制：窄轨道 + 浅灰圆角拇指，替代旧 JS 模拟方案
+    &::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: rgba(144, 147, 153, 0.35);
+      border-radius: 3px;
+
+      &:hover {
+        background: rgba(144, 147, 153, 0.6);
+      }
+    }
+
+    &::-webkit-scrollbar-corner {
+      background: transparent;
+    }
+
+    // Firefox 降级：可定颜色，无圆角与 hover 变深
+    scrollbar-width: thin;
+    scrollbar-color: rgba(144, 147, 153, 0.35) transparent;
+  }
+}
+
+// ---------- 暗色模式扩展 ----------
+
+html.dark {
+  .app-layout__nav-group {
+    border-top-color: #2e2f38;
+  }
+
+  .app-layout__nav-group-label {
+    color: #4e5969;
+  }
+
+  .overview-page__title,
+  .overview-page__group-title {
+    color: #f2f3f5;
+  }
+
+  .overview-page__slogan {
+    color: #a9aeb8;
+  }
+
+  .overview-page__stats,
+  .overview-page__card-count,
+  .detail-page__meta {
+    color: #6b7080;
+  }
+
+  .overview-page__card,
+  .detail-page__card {
+    background: #1d1e25;
+    border-color: #2e2f38;
+
+    &:hover {
+      border-color: #7c5cfc;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  .overview-page__card-footer {
+    border-top-color: #2e2f38;
+  }
+
+  .overview-page__card-title,
+  .detail-page__title,
+  .detail-page__card-title {
+    color: #f2f3f5;
+  }
+
+  .overview-page__card-preview {
+    background: #1d1e25;
+  }
+
+  .detail-page__card-header {
+    border-bottom-color: #2e2f38;
+  }
+
+  .detail-page__card-desc {
+    color: #a9aeb8;
+  }
+
+  .detail-page__action-btn {
+    border-color: #4e5969;
+    color: #c9cdd4;
+
+    &:hover {
+      border-color: #7c5cfc;
+      color: #b9a5ff;
+    }
+  }
+
+  .detail-page__code {
+    border-right-color: #2e2f38;
+    background: #17181d;
+  }
+
+  .k-scroll__view {
+    &::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.16);
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.32);
+      }
+    }
+
+    scrollbar-color: rgba(255, 255, 255, 0.16) transparent;
+  }
+
+  .hljs {
+    color: #c9cdd4;
+  }
+
+  .hljs-tag,
+  .hljs-name {
+    color: #e06c75;
+  }
+
+  .hljs-attr,
+  .hljs-number,
+  .hljs-literal {
+    color: #d19a66;
+  }
+
+  .hljs-string {
+    color: #98c379;
+  }
+
+  .hljs-comment,
+  .hljs-doctag {
+    color: #7f848e;
+  }
+
+  .hljs-title,
+  .hljs-built_in {
+    color: #61afef;
+  }
+
+  .hljs-keyword,
+  .hljs-selector-tag {
+    color: #c678dd;
+  }
+}
+
+// 窄屏（iPad/缩窗）：上图表下代码，上下堆叠
+@media (max-width: 1080px) {
+  .detail-page__card-body {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+    .detail-page__preview {
+      order: -1;
+      min-height: 480px;
+    }
+
+    .detail-page__code {
+      height: 380px;
+      border-right: none;
+      border-top: 1px solid tokens.$k-border-color;
+    }
+  }
+}
+

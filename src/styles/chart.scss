@@ -1,0 +1,289 @@
+@use './tokens.scss';
+
+// ============================================================
+// KCharts 图表库本体样式（BEM：k-chart 块）—— npm 发布唯一需要的样式
+// 站点壳层 / demo 页样式在 index.scss 中，不属于库本体
+// ============================================================
+
+// 图表容器与 tooltip（BEM：k-chart 块）
+// ============================================================
+
+.k-chart {
+position: relative;
+width: 100%;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+
+// 图表挂载点：占除 header 外的全部剩余高度，避免 svg 100% 高度溢出容器
+&__canvas {
+position: relative;
+flex: 1;
+min-height: 0;
+}
+
+// 竖排滚动图例时的主体行：图表 + 右侧图例列
+&__body {
+display: flex;
+align-items: stretch;
+gap: 8px;
+flex: 1;
+min-height: 0;
+}
+
+&__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 8px;
+  }
+
+  &__title {
+    font-size: tokens.$k-font-size-md;
+    font-weight: 600;
+    color: tokens.$k-title-color;
+  }
+
+  &__legend {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  // 图例置于图表下方（legend={position:'bottom'}）
+  &__legend--bottom {
+    margin-top: 8px;
+  }
+
+  &__legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: tokens.$k-font-size-xs;
+    line-height: 20px;
+    color: tokens.$k-title-color;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.2s;
+  }
+
+  &__legend-item--hidden {
+    color: tokens.$k-empty-color;
+  }
+
+  &__legend-dot {
+    flex-shrink: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: background 0.2s;
+  }
+
+  // 可滚动图例（legend-type="scroll"）：超出宽度横向滚动 + 左右分页箭头
+  &__legend--scroll {
+    flex-wrap: nowrap;
+    flex: 1;
+    min-width: 0;
+    gap: 4px;
+  }
+
+  &__legend-viewport {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  &__legend-track {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: max-content;
+    transition: transform 0.25s ease;
+  }
+
+  &__legend-nav {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: tokens.$k-title-color;
+    // 半透明圆底 + 细边框：亮暗色背景下均清晰可辨
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s, opacity 0.2s;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  &__legend-nav--disabled {
+    opacity: 0.35;
+    cursor: default;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  // 竖排图例底部的上下翻页箭头行（两枚并排、常驻展示）
+  &__legend-nav-group {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding-top: 2px;
+  }
+
+  &__legend-nav-icon {
+    display: block;
+    line-height: 0;
+  }
+
+  // 竖排滚动图例（legend-orient="vertical" + scroll）：图右侧竖排 + 上下分页箭头
+  &__legend--vscroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    min-height: 0;
+    flex-shrink: 0;
+  }
+
+  &__legend-viewport--v {
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+&__legend-track--v {
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+width: max-content;
+padding: 2px 4px;
+transition: transform 0.25s ease;
+  }
+
+  &__tooltip {
+    position: absolute;
+    z-index: 10;
+    min-width: 140px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid tokens.$k-border-color;
+    border-radius: tokens.$k-radius-md;
+    box-shadow: tokens.$k-shadow-tooltip;
+    pointer-events: none;
+    font-size: tokens.$k-font-size-xs;
+    color: tokens.$k-title-color;
+    // 跟随鼠标平滑移动 + 显隐淡入淡出（对齐 ECharts 交互风格）
+    transition:
+      left 0.15s ease-out,
+      top 0.15s ease-out,
+      opacity 0.2s,
+      visibility 0.2s;
+    will-change: left, top, opacity;
+  }
+
+  &__tooltip--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &__tooltip-label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+
+  &__tooltip-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  &__tooltip-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+
+  &__tooltip-dot {
+    flex-shrink: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  &__tooltip-name {
+    color: tokens.$k-text-color;
+  }
+
+  &__tooltip-value {
+    margin-left: auto;
+    padding-left: 12px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+// ============================================================
+// 暗色模式（<html class="dark"> 驱动）
+// ============================================================
+
+html.dark {
+  .k-chart__title,
+  .k-chart__legend-item,
+  .k-chart__legend-nav {
+    color: #e5e6eb;
+  }
+
+  // 暗色下箭头按钮：半透明白圆底 + 细边框，disabled 同步置灰
+  .k-chart__legend-nav {
+    background: rgba(255, 255, 255, 0.14);
+    border-color: rgba(255, 255, 255, 0.22);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.26);
+    }
+  }
+
+  .k-chart__legend-nav--disabled {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.1);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+  }
+
+  .k-chart__legend-item--hidden {
+    color: #4e5969;
+  }
+
+  .k-chart__tooltip {
+    background: rgba(29, 30, 37, 0.96);
+    border-color: #2e2f38;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    color: #e5e6eb;
+  }
+
+  .k-chart__tooltip-name {
+    color: #a9aeb8;
+  }
+}

@@ -1,0 +1,39 @@
+// ============================================================
+// KCharts 全局设计 Token
+// 与 src/core/theme/index.ts 中的 TS 主题保持同一套色值，
+// 本文件服务于图表容器 / tooltip 等 DOM 层样式；
+// 场景图内绘制元素的色值以 TS 主题为准。
+// ============================================================
+
+// ---- 品牌色板（与 TS 主题 colors 一一对应） ----
+$k-color-primary: #7c5cfc;
+$k-color-primary-light: #b9a5ff;
+$k-color-blue: #2b6fff;
+$k-color-danger: #f5455c;
+
+// ---- 中性色（轴体系对齐 ECharts 5 默认色值） ----
+$k-text-color: #6e7079;
+$k-title-color: #1d2129;
+$k-axis-color: #6e7079;
+$k-grid-color: #e0e6f1;
+$k-border-color: #e5e6eb;
+$k-empty-color: #c9cdd4;
+
+// ---- 字号梯度 ----
+$k-font-size-xs: 12px;
+$k-font-size-sm: 13px;
+$k-font-size-md: 14px;
+$k-font-size-lg: 16px;
+$k-font-size-xl: 20px;
+
+// ---- 间距 ----
+$k-spacing-xs: 4px;
+$k-spacing-sm: 8px;
+$k-spacing-md: 12px;
+$k-spacing-lg: 16px;
+$k-spacing-xl: 24px;
+
+// ---- 圆角 / 阴影 ----
+$k-radius-sm: 4px;
+$k-radius-md: 8px;
+$k-shadow-tooltip: 0 4px 12px rgba(29, 33, 41, 0.1);

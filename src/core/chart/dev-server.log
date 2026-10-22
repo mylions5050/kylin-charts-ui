@@ -1,0 +1,758 @@
+
+> kcharts@0.1.0 dev
+> vite --port 5199 --strictPort
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m2010[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5199[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m12:49:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-chord-chart.tsx[22m
+[2m13:00:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/demo/line-chart/line-stack-demo.vue[22m
+[2m13:00:13[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/line-chart/line-area-stack-demo.vue[22m
+[2m13:04:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m13:10:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m13:10:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m13:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m13:16:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/demo/line-chart/line-boundary-demo.vue[22m
+[2m13:17:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/demo/line-chart/line-boundary-demo.vue[22m
+[2m13:25:05[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m13:28:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m13:32:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-calendar-chart.tsx[22m
+[2m13:35:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m13:35:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m13:56:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue[22m
+[2m13:56:40[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/site/registry.ts[22m
+[2m13:56:54[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m13:57:35[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/map-chart/map-basic-demo.vue[22m
+[2m13:57:36[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/map-chart/map-label-demo.vue[22m
+[2m14:18:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m14:24:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m14:29:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue[22m
+[2m14:30:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m14:30:40[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m14:49:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue[22m
+[2m14:50:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue[22m
+[2m14:50:21[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue[22m
+[2m14:50:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m14:50:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m14:51:30[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/pie-chart/pie-borderless-demo.vue[22m
+[2m14:51:30[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/pie-chart/pie-round-gap-demo.vue[22m
+[2m14:51:30[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/ring-chart/ring-round-gap-demo.vue[22m
+[2m15:02:54[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/demo/pie-chart/pie-scroll-demo.vue[22m
+[2m15:15:44[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/rose-chart/rose-round-gap-demo.vue[22m
+[2m15:20:54[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/rose-chart/rose-borderless-demo.vue[22m
+[2m15:25:58[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/router/index.ts[22m
+[2m15:25:58[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m15:25:59[22m [31m[1m[vite][22m[39m Pre-transform error: Element is missing end tag.
+[2m15:25:59[22m [31m[1m[vite][22m[39m [31mInternal server error: Element is missing end tag.[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/views/HomeView.vue[39m:85:19
+[33m  83 |  
+  84 |  /** 复制状态：step 索引 → 已复制 */
+  85 |  const copied = ref<number | null>(null)
+     |                     ^
+  86 |  const copyCode = async (i: number) => {
+  87 |    try {[39m
+      at createCompilerError (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at emitError (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3036:5)
+      at Object.onend (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:2638:7)
+      at Tokenizer.finish (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1246:14)
+      at Tokenizer.parse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1224:10)
+      at Object.baseParse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3075:13)
+      at Object.parse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:916:23)
+      at Object.parse$1 [as parse] (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1918:24)
+      at createDescriptor (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at transformMain (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:1358:33)
+      at TransformPluginContext.handler (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:1771:27)
+      at PluginContainer.transform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49100:19)
+      at async loadAndTransform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+[2m15:26:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m15:26:47[22m [31m[1m[vite][22m[39m [31mInternal server error: Element is missing end tag.[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/views/HomeView.vue[39m:85:19
+[33m  83 |  
+  84 |  /** 复制状态：step 索引 → 已复制 */
+  85 |  const copied = ref<number | null>(null)
+     |                     ^
+  86 |  const copyCode = async (i: number) => {
+  87 |    try {[39m
+      at createCompilerError (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at emitError (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3036:5)
+      at Object.onend (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:2638:7)
+      at Tokenizer.finish (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1246:14)
+      at Tokenizer.parse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1224:10)
+      at Object.baseParse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3075:13)
+      at Object.parse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:916:23)
+      at Object.parse$1 [as parse] (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1918:24)
+      at createDescriptor (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at transformMain (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:1358:33)
+      at TransformPluginContext.handler (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:1771:27)
+      at PluginContainer.transform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49100:19)
+      at async loadAndTransform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+[2m15:27:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m15:27:57[22m [31m[1m[vite][22m[39m [31mInternal server error: Element is missing end tag.[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/views/HomeView.vue[39m:85:19
+[33m  83 |  
+  84 |  /** 复制状态：step 索引 → 已复制 */
+  85 |  const copied = ref<number | null>(null)
+     |                     ^
+  86 |  const copyCode = async (i: number) => {
+  87 |    try {[39m
+      at createCompilerError (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at emitError (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3036:5)
+      at Object.onend (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:2638:7)
+      at Tokenizer.finish (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1246:14)
+      at Tokenizer.parse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1224:10)
+      at Object.baseParse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3075:13)
+      at Object.parse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:916:23)
+      at Object.parse$1 [as parse] (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1918:24)
+      at createDescriptor (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at transformMain (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:1358:33)
+      at TransformPluginContext.handler (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:1771:27)
+      at PluginContainer.transform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49100:19)
+      at async loadAndTransform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+[2m15:28:21[22m [31m[1m[vite][22m[39m [31mInternal server error: Element is missing end tag.[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/views/HomeView.vue[39m:85:19
+[33m  83 |  
+  84 |  /** 复制状态：step 索引 → 已复制 */
+  85 |  const copied = ref<number | null>(null)
+     |                     ^
+  86 |  const copyCode = async (i: number) => {
+  87 |    try {[39m
+      at createCompilerError (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at emitError (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3036:5)
+      at Object.onend (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:2638:7)
+      at Tokenizer.finish (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1246:14)
+      at Tokenizer.parse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1224:10)
+      at Object.baseParse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3075:13)
+      at Object.parse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:916:23)
+      at Object.parse$1 [as parse] (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1918:24)
+      at createDescriptor (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at transformMain (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:1358:33)
+      at TransformPluginContext.handler (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:1771:27)
+      at PluginContainer.transform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49100:19)
+      at async loadAndTransform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+[2m15:36:14[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m15:37:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m15:37:03[22m [31m[1m[vite][22m[39m [31mInternal server error: Unquoted attribute value cannot contain U+0022 ("), U+0027 ('), U+003C (<), U+003D (=), and U+0060 (`).[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mC:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/views/HomeView.vue[39m:171:24
+[33m  169|            <div class="home-page__panel home-page__panel--1">
+  170|              <KLineChart
+  171|                labels={['Q1', 'Q2', 'Q3', 'Q4']}
+     |                          ^
+  172|                :series="[{ name: '营收', data: [120, 200, 150, 260] }, { name: '成本', data: [80, 110, 90, 130] }]"
+  173|                legend[39m
+      at createCompilerError (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17)
+      at Object.emitError [as onerr] (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3036:5)
+      at Tokenizer.stateInAttrValueNoQuotes (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:982:16)
+      at Tokenizer.parse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1193:16)
+      at Object.baseParse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3075:13)
+      at Object.parse (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:916:23)
+      at Object.parse$1 [as parse] (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1918:24)
+      at createDescriptor (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/@vitejs/plugin-vue/dist/index.mjs:1202:25)
+      at async handleHMRUpdate (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:63718:31)
+      at async onHMRUpdate (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:63271:9)
+      at async FSWatcher.<anonymous> (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:63303:5)
+[2m15:37:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m15:37:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m15:39:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m15:39:58[22m [31m[1m[vite][22m[39m [31mInternal server error: [sass] There is no module with namespace "tokens".
+    ╷
+307 │   border: 1px solid tokens.$k-border-color;
+    │                     ^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  src\styles\home.scss 307:21  @use
+  src\styles\index.scss 2:1    root stylesheet[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\src\styles\home.scss[39m:307:21
+[33m  Error: There is no module with namespace "tokens".
+      ╷
+  307 │   border: 1px solid tokens.$k-border-color;
+      │                     ^^^^^^^^^^^^^^^^^^^^^^
+      ╵
+    src\styles\home.scss 307:21  @use
+    src\styles\index.scss 2:1    root stylesheet[39m
+      at Object.wrapException (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:2317:47)
+      at AsyncEnvironment0.getModule$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:89347:15)
+      at AsyncEnvironment0.getVariable$2$namespace (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:88911:22)
+      at _EvaluateVisitor_visitVariableExpression_closure2.call$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:98163:55)
+      at _EvaluateVisitor2._async_evaluate0$_addExceptionSpan$1$2 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:95267:23)
+      at _EvaluateVisitor2._async_evaluate0$_addExceptionSpan$2 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:95281:19)
+      at C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:92277:36
+      at _wrapJsFunctionForAsync_closure.$protected (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:4988:15)
+      at _wrapJsFunctionForAsync_closure.call$2 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:39061:12)
+      at Object._asyncStartSync (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:4952:20)
+      at _EvaluateVisitor2.visitVariableExpression$body$_EvaluateVisitor0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:92290:16)
+      at _EvaluateVisitor2.visitVariableExpression$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:92264:19)
+      at VariableExpression0.accept$1$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:130858:22)
+      at VariableExpression0.accept$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:130861:19)
+      at _EvaluateVisitor_visitListExpression_closure2.call$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:98204:25)
+      at C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:33220:45
+      at _wrapJsFunctionForAsync_closure.$protected (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:4988:15)
+      at _wrapJsFunctionForAsync_closure.call$2 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:39061:12)
+      at _awaitOnObject_closure.call$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:39049:32)
+      at StaticClosure._rootRunUnary (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:5412:18)
+      at _CustomZone.runUnary$2$2 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:40516:39)
+      at _Future__propagateToListeners_handleValueCallback.call$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:39550:51)
+      at Object._Future__propagateToListeners (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:5198:93)
+      at _Future._completeWithValue$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:39413:9)
+      at _Future__asyncCompleteWithValue_closure.call$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:39478:18)
+      at StaticClosure._rootRun (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:5402:16)
+      at _CustomZone.run$1$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:40511:39)
+      at _CustomZone_bindCallback_closure.call$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:40603:25)
+      at Object._microtaskLoop (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:5256:24)
+      at StaticClosure._startMicrotaskLoop (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:5262:11)
+      at _AsyncRun__scheduleImmediateJsOverride_internalCallback.call$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:38962:21)
+      at process.processImmediate (node:internal/timers:504:21)
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m15:41:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m15:41:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m15:48:21[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m15:49:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m15:57:51[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m16:10:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:12:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:15:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:17:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:17:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m16:37:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:37:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:37:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:38:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:38:09[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:38:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:38:31[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:38:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:38:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:38:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:39:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:39:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:39:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:39:32[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:39:40[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:39:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:40:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:40:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:40:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:40:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m16:41:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m17:10:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-parallel-chart.tsx, /src/components/k-calendar-chart.tsx, /src/components/k-bullet-chart.tsx, /src/components/k-bar-chart.tsx, /src/components/k-multi-ring-chart.tsx, /src/components/k-graph-chart.tsx, /src/components/k-progress-ring-chart.tsx, /src/components/k-progress-bar-chart.tsx, /src/components/k-treemap-chart.tsx, /src/components/k-wordcloud-chart.tsx, /src/components/k-radar-chart.tsx, /src/components/k-scatter-chart.tsx, /src/components/k-theme-river-chart.tsx, /src/components/k-sankey-chart.tsx, /src/components/k-tree-chart.tsx, /src/components/k-line-chart.tsx, /src/components/k-circle-packing-chart.tsx, /src/components/k-sunburst-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue, /src/components/k-heatmap-chart.tsx, /src/components/k-map-chart.tsx, /src/components/k-chord-chart.tsx, /src/components/k-funnel-chart.tsx, /src/components/k-gauge-chart.tsx, /src/components/k-boxplot-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue, /src/components/k-candlestick-chart.tsx[22m
+[2m17:13:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-parallel-chart.tsx, /src/components/k-calendar-chart.tsx, /src/components/k-bullet-chart.tsx, /src/components/k-bar-chart.tsx, /src/components/k-multi-ring-chart.tsx, /src/components/k-graph-chart.tsx, /src/components/k-progress-ring-chart.tsx, /src/components/k-progress-bar-chart.tsx, /src/components/k-treemap-chart.tsx, /src/components/k-wordcloud-chart.tsx, /src/components/k-radar-chart.tsx, /src/components/k-scatter-chart.tsx, /src/components/k-theme-river-chart.tsx, /src/components/k-sankey-chart.tsx, /src/components/k-tree-chart.tsx, /src/components/k-line-chart.tsx, /src/components/k-circle-packing-chart.tsx, /src/components/k-sunburst-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue, /src/components/k-heatmap-chart.tsx, /src/components/k-map-chart.tsx, /src/components/k-chord-chart.tsx, /src/components/k-funnel-chart.tsx, /src/components/k-gauge-chart.tsx, /src/components/k-boxplot-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue, /src/components/k-candlestick-chart.tsx[22m
+[2m17:13:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-parallel-chart.tsx, /src/components/k-calendar-chart.tsx, /src/components/k-bullet-chart.tsx, /src/components/k-bar-chart.tsx, /src/components/k-multi-ring-chart.tsx, /src/components/k-graph-chart.tsx, /src/components/k-progress-ring-chart.tsx, /src/components/k-progress-bar-chart.tsx, /src/components/k-treemap-chart.tsx, /src/components/k-wordcloud-chart.tsx, /src/components/k-radar-chart.tsx, /src/components/k-scatter-chart.tsx, /src/components/k-theme-river-chart.tsx, /src/components/k-sankey-chart.tsx, /src/components/k-tree-chart.tsx, /src/components/k-line-chart.tsx, /src/components/k-circle-packing-chart.tsx, /src/components/k-sunburst-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue, /src/components/k-heatmap-chart.tsx, /src/components/k-map-chart.tsx, /src/components/k-chord-chart.tsx, /src/components/k-funnel-chart.tsx, /src/components/k-gauge-chart.tsx, /src/components/k-boxplot-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue, /src/components/k-candlestick-chart.tsx[22m
+[2m17:32:45[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-map-chart.tsx[22m
+[2m17:47:54[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-parallel-chart.tsx, /src/components/k-calendar-chart.tsx, /src/components/k-bullet-chart.tsx, /src/components/k-bar-chart.tsx, /src/components/k-multi-ring-chart.tsx, /src/components/k-graph-chart.tsx, /src/components/k-progress-ring-chart.tsx, /src/components/k-progress-bar-chart.tsx, /src/components/k-treemap-chart.tsx, /src/components/k-wordcloud-chart.tsx, /src/components/k-radar-chart.tsx, /src/components/k-scatter-chart.tsx, /src/components/k-theme-river-chart.tsx, /src/components/k-sankey-chart.tsx, /src/components/k-tree-chart.tsx, /src/components/k-line-chart.tsx, /src/components/k-circle-packing-chart.tsx, /src/components/k-sunburst-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue, /src/components/k-heatmap-chart.tsx, /src/components/k-map-chart.tsx, /src/components/k-chord-chart.tsx, /src/components/k-funnel-chart.tsx, /src/components/k-gauge-chart.tsx, /src/components/k-boxplot-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue, /src/components/k-candlestick-chart.tsx[22m
+[2m17:48:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-map-chart.tsx[22m
+[2m17:49:07[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/map-chart/map-drill-demo.vue[22m
+[2m17:49:41[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/map-chart/map-usa-demo.vue[22m
+[2m17:49:41[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/map-chart/map-australia-demo.vue[22m
+[2m17:50:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/demo/map-chart/map-drill-demo.vue[22m
+[2m17:54:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-map-chart.tsx[22m
+[2m19:13:24[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/map-chart/map-custom-guide-demo.vue[22m
+[2m19:13:47[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/map-chart/map-russia-demo.vue[22m
+[2m19:14:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/demo/map-chart/map-custom-guide-demo.vue[22m
+[2m19:16:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/demo/map-chart/map-custom-guide-demo.vue[22m
+[2m19:25:09[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m19:25:31[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m19:25:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m19:25:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m19:26:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-boxplot-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue[22m
+[2m19:26:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-candlestick-chart.tsx[22m
+[2m19:26:37[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/line-chart/line-axis-formatter-demo.vue[22m
+[2m19:26:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/demo/line-chart/line-axis-formatter-demo.vue[22m
+[2m19:32:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m19:32:32[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m19:33:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m19:35:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-boxplot-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue[22m
+[2m19:36:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-candlestick-chart.tsx[22m
+[2m19:37:19[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/bar-chart/bar-axis-rotate-demo.vue[22m
+[2m20:13:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m20:14:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m20:14:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m20:14:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-boxplot-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue[22m
+[2m20:14:51[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-candlestick-chart.tsx[22m
+[2m20:17:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m20:17:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-boxplot-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue[22m
+[2m20:17:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-candlestick-chart.tsx[22m
+[2m20:17:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m20:17:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m20:20:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/demo/bar-chart/bar-axis-rotate-demo.vue[22m
+[2m20:28:11[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/components/k-calendar-chart.tsx, /src/components/k-bullet-chart.tsx, /src/components/k-bar-chart.tsx, /src/components/k-boxplot-chart.tsx, /src/components/k-chord-chart.tsx, /src/components/k-funnel-chart.tsx, /src/components/k-candlestick-chart.tsx, /src/components/k-circle-packing-chart.tsx, /src/components/k-graph-chart.tsx, /src/components/k-gauge-chart.tsx, /src/components/k-multi-ring-chart.tsx, /src/components/k-line-chart.tsx, /src/components/k-heatmap-chart.tsx, /src/components/k-parallel-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue, /src/components/k-progress-ring-chart.tsx, /src/components/k-progress-bar-chart.tsx, /src/components/k-sunburst-chart.tsx, /src/components/k-radar-chart.tsx, /src/components/k-tree-chart.tsx, /src/components/k-scatter-chart.tsx, /src/components/k-sankey-chart.tsx, /src/components/k-theme-river-chart.tsx, /src/components/k-treemap-chart.tsx, /src/components/k-wordcloud-chart.tsx, /src/components/k-map-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue[22m
+[2m20:28:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/components/k-calendar-chart.tsx, /src/components/k-bullet-chart.tsx, /src/components/k-bar-chart.tsx, /src/components/k-boxplot-chart.tsx, /src/components/k-chord-chart.tsx, /src/components/k-funnel-chart.tsx, /src/components/k-candlestick-chart.tsx, /src/components/k-circle-packing-chart.tsx, /src/components/k-graph-chart.tsx, /src/components/k-gauge-chart.tsx, /src/components/k-multi-ring-chart.tsx, /src/components/k-line-chart.tsx, /src/components/k-heatmap-chart.tsx, /src/components/k-parallel-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue, /src/components/k-progress-ring-chart.tsx, /src/components/k-progress-bar-chart.tsx, /src/components/k-sunburst-chart.tsx, /src/components/k-radar-chart.tsx, /src/components/k-tree-chart.tsx, /src/components/k-scatter-chart.tsx, /src/components/k-sankey-chart.tsx, /src/components/k-theme-river-chart.tsx, /src/components/k-treemap-chart.tsx, /src/components/k-wordcloud-chart.tsx, /src/components/k-map-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue[22m
+[2m02:07:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m02:07:26[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/line-chart/line-symbol-demo.vue[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-boxplot-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bullet-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-calendar-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-candlestick-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-chord-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-circle-packing-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-funnel-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-gauge-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-graph-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-heatmap-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-map-chart.tsx[22m
+[2m02:12:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-multi-ring-chart.tsx[22m
+[2m02:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-radar-chart.tsx[22m
+[2m02:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-sankey-chart.tsx[22m
+[2m02:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m02:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-sunburst-chart.tsx[22m
+[2m02:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-theme-river-chart.tsx[22m
+[2m02:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-tree-chart.tsx[22m
+[2m02:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-treemap-chart.tsx[22m
+[2m02:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-wordcloud-chart.tsx[22m
+[2m02:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-parallel-chart.tsx[22m
+[2m02:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-progress-bar-chart.tsx[22m
+[2m02:12:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-progress-ring-chart.tsx[22m
+[2m02:12:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue[22m
+[2m02:13:27[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/line-chart/line-padding-demo.vue[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-boxplot-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bullet-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-calendar-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-candlestick-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-chord-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-circle-packing-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-funnel-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-gauge-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-graph-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-heatmap-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-map-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-multi-ring-chart.tsx[22m
+[2m02:21:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-parallel-chart.tsx[22m
+[2m02:21:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-progress-bar-chart.tsx[22m
+[2m02:21:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-progress-ring-chart.tsx[22m
+[2m02:21:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-radar-chart.tsx[22m
+[2m02:21:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-sankey-chart.tsx[22m
+[2m02:21:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m02:21:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-sunburst-chart.tsx[22m
+[2m02:21:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-theme-river-chart.tsx[22m
+[2m02:21:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-tree-chart.tsx[22m
+[2m02:21:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-treemap-chart.tsx[22m
+[2m02:21:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-wordcloud-chart.tsx[22m
+[2m02:27:51[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/bar-chart/bar-background-demo.vue, /src/views/demo/bar-chart/bar-percent-demo.vue, /src/views/demo/bar-chart/bar-basic-demo.vue, /src/views/demo/bar-chart/bar-full-demo.vue, /src/views/demo/bar-chart/bar-marked-demo.vue, /src/views/demo/bar-chart/bar-datazoom-demo.vue, /src/views/demo/bar-chart/bar-waterfall-demo.vue, /src/views/demo/bar-chart/bar-stagger-demo.vue, /src/views/demo/bar-chart/bar-markline-demo.vue, /src/views/demo/bar-chart/bar-horizontal-stacked-demo.vue, /src/views/demo/bar-chart/bar-stacked-demo.vue, /src/views/demo/bar-chart/bar-line-demo.vue, /src/views/demo/bar-chart/bar-horizontal-demo.vue, /src/views/demo/bar-chart/bar-axis-rotate-demo.vue[22m
+[2m02:28:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/bar-chart/bar-background-demo.vue, /src/views/demo/bar-chart/bar-percent-demo.vue, /src/views/demo/bar-chart/bar-basic-demo.vue, /src/views/demo/bar-chart/bar-full-demo.vue, /src/views/demo/bar-chart/bar-marked-demo.vue, /src/views/demo/bar-chart/bar-datazoom-demo.vue, /src/views/demo/bar-chart/bar-waterfall-demo.vue, /src/views/demo/bar-chart/bar-stagger-demo.vue, /src/views/demo/bar-chart/bar-markline-demo.vue, /src/views/demo/bar-chart/bar-horizontal-stacked-demo.vue, /src/views/demo/bar-chart/bar-stacked-demo.vue, /src/views/demo/bar-chart/bar-line-demo.vue, /src/views/demo/bar-chart/bar-horizontal-demo.vue, /src/views/demo/bar-chart/bar-axis-rotate-demo.vue[22m
+[2m02:28:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/bar-chart/bar-background-demo.vue, /src/views/demo/bar-chart/bar-percent-demo.vue, /src/views/demo/bar-chart/bar-basic-demo.vue, /src/views/demo/bar-chart/bar-full-demo.vue, /src/views/demo/bar-chart/bar-marked-demo.vue, /src/views/demo/bar-chart/bar-datazoom-demo.vue, /src/views/demo/bar-chart/bar-waterfall-demo.vue, /src/views/demo/bar-chart/bar-stagger-demo.vue, /src/views/demo/bar-chart/bar-markline-demo.vue, /src/views/demo/bar-chart/bar-horizontal-stacked-demo.vue, /src/views/demo/bar-chart/bar-stacked-demo.vue, /src/views/demo/bar-chart/bar-line-demo.vue, /src/views/demo/bar-chart/bar-horizontal-demo.vue, /src/views/demo/bar-chart/bar-axis-rotate-demo.vue[22m
+[2m02:29:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/bar-chart/bar-background-demo.vue, /src/views/demo/bar-chart/bar-percent-demo.vue, /src/views/demo/bar-chart/bar-basic-demo.vue, /src/views/demo/bar-chart/bar-full-demo.vue, /src/views/demo/bar-chart/bar-marked-demo.vue, /src/views/demo/bar-chart/bar-datazoom-demo.vue, /src/views/demo/bar-chart/bar-waterfall-demo.vue, /src/views/demo/bar-chart/bar-stagger-demo.vue, /src/views/demo/bar-chart/bar-markline-demo.vue, /src/views/demo/bar-chart/bar-horizontal-stacked-demo.vue, /src/views/demo/bar-chart/bar-stacked-demo.vue, /src/views/demo/bar-chart/bar-line-demo.vue, /src/views/demo/bar-chart/bar-horizontal-demo.vue, /src/views/demo/bar-chart/bar-axis-rotate-demo.vue[22m
+[2m02:30:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/bar-chart/bar-background-demo.vue, /src/views/demo/bar-chart/bar-percent-demo.vue, /src/views/demo/bar-chart/bar-basic-demo.vue, /src/views/demo/bar-chart/bar-full-demo.vue, /src/views/demo/bar-chart/bar-marked-demo.vue, /src/views/demo/bar-chart/bar-datazoom-demo.vue, /src/views/demo/bar-chart/bar-waterfall-demo.vue, /src/views/demo/bar-chart/bar-stagger-demo.vue, /src/views/demo/bar-chart/bar-markline-demo.vue, /src/views/demo/bar-chart/bar-horizontal-stacked-demo.vue, /src/views/demo/bar-chart/bar-stacked-demo.vue, /src/views/demo/bar-chart/bar-line-demo.vue, /src/views/demo/bar-chart/bar-horizontal-demo.vue, /src/views/demo/bar-chart/bar-axis-rotate-demo.vue[22m
+[2m02:30:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/bar-chart/bar-background-demo.vue, /src/views/demo/bar-chart/bar-percent-demo.vue, /src/views/demo/bar-chart/bar-basic-demo.vue, /src/views/demo/bar-chart/bar-full-demo.vue, /src/views/demo/bar-chart/bar-marked-demo.vue, /src/views/demo/bar-chart/bar-datazoom-demo.vue, /src/views/demo/bar-chart/bar-waterfall-demo.vue, /src/views/demo/bar-chart/bar-stagger-demo.vue, /src/views/demo/bar-chart/bar-markline-demo.vue, /src/views/demo/bar-chart/bar-horizontal-stacked-demo.vue, /src/views/demo/bar-chart/bar-stacked-demo.vue, /src/views/demo/bar-chart/bar-line-demo.vue, /src/views/demo/bar-chart/bar-horizontal-demo.vue, /src/views/demo/bar-chart/bar-axis-rotate-demo.vue[22m
+[2m02:32:14[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/bar-chart/bar-background-demo.vue, /src/views/demo/bar-chart/bar-percent-demo.vue, /src/views/demo/bar-chart/bar-basic-demo.vue, /src/views/demo/bar-chart/bar-full-demo.vue, /src/views/demo/bar-chart/bar-marked-demo.vue, /src/views/demo/bar-chart/bar-datazoom-demo.vue, /src/views/demo/bar-chart/bar-waterfall-demo.vue, /src/views/demo/bar-chart/bar-stagger-demo.vue, /src/views/demo/bar-chart/bar-markline-demo.vue, /src/views/demo/bar-chart/bar-horizontal-stacked-demo.vue, /src/views/demo/bar-chart/bar-stacked-demo.vue, /src/views/demo/bar-chart/bar-line-demo.vue, /src/views/demo/bar-chart/bar-horizontal-demo.vue, /src/views/demo/bar-chart/bar-axis-rotate-demo.vue[22m
+[2m02:32:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m02:33:14[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m02:33:54[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/bar-chart/bar-background-demo.vue, /src/views/demo/bar-chart/bar-percent-demo.vue, /src/views/demo/bar-chart/bar-basic-demo.vue, /src/views/demo/bar-chart/bar-full-demo.vue, /src/views/demo/bar-chart/bar-marked-demo.vue, /src/views/demo/bar-chart/bar-datazoom-demo.vue, /src/views/demo/bar-chart/bar-waterfall-demo.vue, /src/views/demo/bar-chart/bar-stagger-demo.vue, /src/views/demo/bar-chart/bar-markline-demo.vue, /src/views/demo/bar-chart/bar-horizontal-stacked-demo.vue, /src/views/demo/bar-chart/bar-stacked-demo.vue, /src/views/demo/bar-chart/bar-line-demo.vue, /src/views/demo/bar-chart/bar-horizontal-demo.vue, /src/views/demo/bar-chart/bar-axis-rotate-demo.vue[22m
+[2m02:34:25[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/line-chart/line-axis-ext-demo.vue[22m
+[2m02:34:26[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/bar-chart/bar-shape-demo.vue[22m
+[2m02:36:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m02:36:58[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m02:40:39[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/site/registry.ts[22m
+[2m02:52:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx, /src/components/k-scatter-chart.tsx[22m
+[2m02:54:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m02:54:03[22m [31m[1m[vite][22m[39m Pre-transform error: Transform failed with 1 error:
+C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/core/chart/line-chart.ts:556:41: ERROR: Expected identifier but found "（"
+[2m02:54:03[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/core/chart/line-chart.ts:556:41: ERROR: Expected identifier but found "（"[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/core/chart/line-chart.ts[39m:556:41
+[33m  
+  [33mExpected identifier but found "（"[33m
+  554|              fontSize: theme.fontSize,
+  555|              fill: nameColorOf(option.yAxis2, theme.textColor),
+  556|              fontFamily: theme.fontFamily,（按宽度抽稀，刻度随标签走） ============
+     |                                           ^
+  557|      const maxVisible = Math.max(2, Math.floor(plotW / 64))
+  558|      const labelStep = labelStepOf(option.xAxis, Math.ceil(labelCount / maxVisible))
+  [39m
+      at failureErrorWithLog (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\esbuild\lib\main.js:1472:15)
+      at C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\esbuild\lib\main.js:755:50
+      at responseCallbacks.<computed> (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\esbuild\lib\main.js:622:9)
+      at handleIncomingPacket (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\esbuild\lib\main.js:677:12)
+      at Socket.readFromStdout (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\esbuild\lib\main.js:600:7)
+      at Socket.emit (node:events:509:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m02:54:03[22m [31m[1m[vite][22m[39m Pre-transform error: Transform failed with 1 error:
+C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/core/chart/line-chart.ts:556:41: ERROR: Expected identifier but found "（"
+[2m02:54:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m02:54:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m02:55:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m02:56:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m02:57:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m02:57:54[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m02:58:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m03:00:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx[22m
+[2m03:01:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx[22m
+[2m03:01:26[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m03:01:51[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m03:02:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m03:03:14[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-radar-chart.tsx[22m
+[2m03:03:32[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-funnel-chart.tsx[22m
+[2m03:04:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-boxplot-chart.tsx[22m
+[2m03:04:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-candlestick-chart.tsx[22m
+[2m03:05:17[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/line-chart/line-markext-demo.vue[22m
+[2m03:05:31[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/bar-chart/bar-markext-demo.vue[22m
+[2m03:05:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/demo/bar-chart/bar-markext-demo.vue[22m
+[2m03:06:00[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/site/registry.ts[22m
+[2m03:35:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChartDetailView.vue[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m00:31:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChartDetailView.vue[22m
+[2m00:32:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChartDetailView.vue[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m00:38:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChartDetailView.vue?vue&type=style&index=0&scoped=e8de3265&lang.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m00:38:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m00:38:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m00:38:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m00:38:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChartDetailView.vue?vue&type=style&index=0&scoped=e8de3265&lang.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m00:41:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChartDetailView.vue?vue&type=style&index=0&scoped=e8de3265&lang.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m00:42:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChartDetailView.vue?vue&type=style&index=0&scoped=e8de3265&lang.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m00:51:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m00:51:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChartDetailView.vue?vue&type=style&index=0&scoped=e8de3265&lang.scss, /src/views/ChartDetailView.vue[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m00:55:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/views/HomeView.vue[22m
+[2m00:55:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChartDetailView.vue, /src/views/ChartDetailView.vue?vue&type=style&index=0&scoped=e8de3265&lang.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m00:58:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue[22m
+[2m00:58:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m01:10:21[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scroll.tsx[22m
+[2m01:10:40[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m01:11:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m01:14:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChartDetailView.vue[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m01:21:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+[2m01:21:01[22m [31m[1m[vite][22m[39m [31mInternal server error: [sass] expected "{".
+    ╷
+240 │   .k-chart__title,
+    │                   ^
+    ╵
+  src\styles\index.scss 240:19  root stylesheet[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\src\styles\index.scss[39m:240:19
+[33m  Error: expected "{".
+      ╷
+  240 │   .k-chart__title,
+      │                   ^
+      ╵
+    src\styles\index.scss 240:19  root stylesheet[39m
+      at Object.wrapException (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:2317:47)
+      at SpanScanner.error$3$length$position (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:88111:15)
+      at SpanScanner._fail$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:88250:12)
+      at SpanScanner.expectChar$2$name (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:88192:12)
+      at SpanScanner.expectChar$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:88195:19)
+      at ScssParser0.children$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:120565:10)
+      at ScssParser0._stylesheet0$_withChildren$1$3 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:129129:39)
+      at ScssParser0._stylesheet0$_withChildren$3 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:129134:19)
+      at ScssParser0._stylesheet0$_withStyleRuleChildren$1$3 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:125445:20)
+      at ScssParser0._stylesheet0$_styleRule$2 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:125435:22)
+      at ScssParser0._stylesheet0$_declarationOrStyleRule$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:125268:88)
+      at ScssParser0._stylesheet0$_statement$1$root (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:125183:162)
+      at ScssParser0._stylesheet0$_statement$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:125186:19)
+      at tear_off.call$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:2670:45)
+      at ScssParser0.children$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:120595:33)
+      at ScssParser0._stylesheet0$_withChildren$1$3 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:129129:39)
+      at ScssParser0._stylesheet0$_withChildren$3 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:129134:19)
+      at ScssParser0._stylesheet0$_withStyleRuleChildren$1$3 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:125445:20)
+      at ScssParser0._stylesheet0$_styleRule$2 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:125435:22)
+      at ScssParser0._stylesheet0$_variableDeclarationOrStyleRule$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:125256:20)
+      at ScssParser0._stylesheet0$_statement$1$root (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:125183:211)
+      at StylesheetParser_parse__closure0.call$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:129198:17)
+      at ScssParser0.statements$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:120628:30)
+      at StylesheetParser_parse_closure0.call$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:129184:23)
+      at ScssParser0.wrapSpanFormatException$1$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:119201:25)
+      at ScssParser0.wrapSpanFormatException$1 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:119258:19)
+      at ScssParser0.parse$0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:125147:19)
+      at Object.Stylesheet_Stylesheet$parse0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:32586:64)
+      at C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:21184:30
+      at _wrapJsFunctionForAsync_closure.$protected (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:4988:15)
+      at _wrapJsFunctionForAsync_closure.call$2 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:39061:12)
+      at Object._asyncStartSync (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:4952:20)
+      at Object.compileStringAsync0 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:21208:16)
+      at C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:29512:38
+      at _wrapJsFunctionForAsync_closure.$protected (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:4988:15)
+      at _wrapJsFunctionForAsync_closure.call$2 (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:39061:12)
+      at Object._asyncStartSync (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:4952:20)
+      at Object._renderAsync (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:29570:16)
+      at StaticClosure.render (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:29465:11)
+      at Object.Primitives_applyFunction (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:2196:30)
+      at Object.Function_apply (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:6436:16)
+      at _callDartFunctionFast (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:8252:16)
+      at sass.render (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\sass\sass.dart.js:8230:18)
+      at eval (eval at FakeWorker (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:1:1), <anonymous>:30:14)
+      at new Promise (<anonymous>)
+      at FakeWorker.eval [as _fn] (eval at FakeWorker (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:1:1), <anonymous>:29:14)
+      at FakeWorker.run (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:19650:25)
+      at WorkerWithFallback.run (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:19690:58)
+      at process (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:37578:37)
+      at async compileCSSPreprocessors (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:36742:28)
+[2m01:22:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m01:22:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/index.scss[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m01:25:15[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/router/index.ts[22m
+[2m01:25:16[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@/views/InstallGuideView.vue" from "src/router/index.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/router/index.ts[39m:7:29
+[33m  4  |  import OverviewView from "@/views/OverviewView.vue";
+  5  |  import ChartDetailView from "@/views/ChartDetailView.vue";
+  6  |  import InstallGuideView from "@/views/InstallGuideView.vue";
+     |                                ^
+  7  |  const routes = [
+  8  |    {[39m
+      at TransformPluginContext._formatError (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+[2m01:25:16[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "@/views/InstallGuideView.vue" from "src/router/index.ts". Does the file exist?
+[2m01:25:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+[2m01:25:40[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@/views/InstallGuideView.vue" from "src/router/index.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/router/index.ts[39m:7:29
+[33m  4  |  import OverviewView from "@/views/OverviewView.vue";
+  5  |  import ChartDetailView from "@/views/ChartDetailView.vue";
+  6  |  import InstallGuideView from "@/views/InstallGuideView.vue";
+     |                                ^
+  7  |  const routes = [
+  8  |    {[39m
+      at TransformPluginContext._formatError (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+[2m01:25:40[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "@/views/InstallGuideView.vue" from "src/router/index.ts". Does the file exist?
+[2m01:26:45[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/InstallGuideView.vue[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m01:27:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/InstallGuideView.vue[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[2m01:29:05[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-sankey-chart.tsx[22m
+[2m01:39:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m01:39:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx, /src/components/k-line-chart.tsx[22m
+[2m01:40:11[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-map-chart.tsx[22m
+[2m01:40:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx[22m
+[2m01:40:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m01:40:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-gauge-chart.tsx[22m
+[2m01:40:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m01:41:14[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue[22m
+[2m01:25:25[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-parallel-chart.tsx, /src/components/k-calendar-chart.tsx, /src/components/k-bullet-chart.tsx, /src/components/k-bar-chart.tsx, /src/components/k-multi-ring-chart.tsx, /src/components/k-graph-chart.tsx, /src/components/k-progress-ring-chart.tsx, /src/components/k-progress-bar-chart.tsx, /src/components/k-treemap-chart.tsx, /src/components/k-wordcloud-chart.tsx, /src/components/k-radar-chart.tsx, /src/components/k-scatter-chart.tsx, /src/components/k-theme-river-chart.tsx, /src/components/k-sankey-chart.tsx, /src/components/k-tree-chart.tsx, /src/components/k-line-chart.tsx, /src/components/k-circle-packing-chart.tsx, /src/components/k-sunburst-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue, /src/components/k-heatmap-chart.tsx, /src/components/k-map-chart.tsx, /src/components/k-chord-chart.tsx, /src/components/k-funnel-chart.tsx, /src/components/k-gauge-chart.tsx, /src/components/k-boxplot-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue, /src/components/k-candlestick-chart.tsx[22m
+[2m01:25:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-parallel-chart.tsx, /src/components/k-calendar-chart.tsx, /src/components/k-bullet-chart.tsx, /src/components/k-bar-chart.tsx, /src/components/k-multi-ring-chart.tsx, /src/components/k-graph-chart.tsx, /src/components/k-progress-ring-chart.tsx, /src/components/k-progress-bar-chart.tsx, /src/components/k-treemap-chart.tsx, /src/components/k-wordcloud-chart.tsx, /src/components/k-radar-chart.tsx, /src/components/k-scatter-chart.tsx, /src/components/k-theme-river-chart.tsx, /src/components/k-sankey-chart.tsx, /src/components/k-tree-chart.tsx, /src/components/k-line-chart.tsx, /src/components/k-circle-packing-chart.tsx, /src/components/k-sunburst-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue, /src/components/k-heatmap-chart.tsx, /src/components/k-map-chart.tsx, /src/components/k-chord-chart.tsx, /src/components/k-funnel-chart.tsx, /src/components/k-gauge-chart.tsx, /src/components/k-boxplot-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue, /src/components/k-candlestick-chart.tsx[22m
+[2m01:26:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m01:27:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m01:27:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m01:28:40[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-parallel-chart.tsx, /src/components/k-calendar-chart.tsx, /src/components/k-bullet-chart.tsx, /src/components/k-bar-chart.tsx, /src/components/k-multi-ring-chart.tsx, /src/components/k-graph-chart.tsx, /src/components/k-progress-ring-chart.tsx, /src/components/k-progress-bar-chart.tsx, /src/components/k-treemap-chart.tsx, /src/components/k-wordcloud-chart.tsx, /src/components/k-radar-chart.tsx, /src/components/k-scatter-chart.tsx, /src/components/k-theme-river-chart.tsx, /src/components/k-sankey-chart.tsx, /src/components/k-tree-chart.tsx, /src/components/k-line-chart.tsx, /src/components/k-circle-packing-chart.tsx, /src/components/k-sunburst-chart.tsx, /src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue, /src/components/k-heatmap-chart.tsx, /src/components/k-map-chart.tsx, /src/components/k-chord-chart.tsx, /src/components/k-funnel-chart.tsx, /src/components/k-gauge-chart.tsx, /src/components/k-boxplot-chart.tsx, /src/views/demo/boxplot-chart/boxplot-basic-demo.vue, /src/views/demo/boxplot-chart/boxplot-dense-demo.vue, /src/components/k-candlestick-chart.tsx[22m
+[2m01:28:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx[22m
+[2m01:28:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m01:29:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m01:30:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m01:30:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m01:31:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m01:31:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m01:33:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m01:33:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-line-chart.tsx, /src/components/k-bar-chart.tsx[22m
+[2m01:33:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-radar-chart.tsx[22m
+[2m01:33:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-radar-chart.tsx[22m
+[2m01:36:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-progress-ring-chart.tsx[22m
+[2m01:36:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-multi-ring-chart.tsx[22m
+[2m01:36:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-progress-bar-chart.tsx[22m
+[2m01:36:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-progress-ring-chart.tsx[22m
+[2m01:36:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-multi-ring-chart.tsx[22m
+[2m01:36:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-progress-bar-chart.tsx[22m
+[2m01:37:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue[22m
+[2m01:37:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OverviewView.vue, /src/views/demo/rose-chart/rose-area-demo.vue, /src/views/demo/rose-chart/rose-ring-demo.vue, /src/views/demo/rose-chart/rose-radius-demo.vue, /src/views/demo/rose-chart/rose-round-gap-demo.vue, /src/views/demo/rose-chart/rose-borderless-demo.vue, /src/views/demo/ring-chart/ring-basic-demo.vue, /src/views/demo/ring-chart/ring-semi-demo.vue, /src/views/demo/ring-chart/ring-thin-demo.vue, /src/views/demo/ring-chart/ring-round-gap-demo.vue, /src/views/HomeView.vue, /src/views/demo/pie-chart/pie-single-demo.vue, /src/views/demo/pie-chart/pie-align-demo.vue, /src/views/demo/pie-chart/pie-color-demo.vue, /src/views/demo/pie-chart/pie-scroll-demo.vue, /src/views/demo/pie-chart/pie-basic-demo.vue, /src/views/demo/pie-chart/pie-borderless-demo.vue, /src/views/demo/pie-chart/pie-round-gap-demo.vue[22m
+[2m01:38:41[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m01:39:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m01:39:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-bar-chart.tsx[22m
+[2m01:41:02[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/line-chart/line-gradient-demo.vue[22m
+[2m01:41:03[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/bar-chart/bar-gradient-demo.vue[22m
+[2m01:41:03[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/pie-chart/pie-gradient-demo.vue[22m
+[2m01:41:03[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/views/demo/progress-ring-chart/progress-gradient-demo.vue[22m
+[2m01:41:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/site/ApiDocsBlock.vue[22m
+[2m01:43:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m01:43:06[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/core/chart/scatter-chart.ts:235:20: ERROR: Invalid assignment target[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/core/chart/scatter-chart.ts[39m:235:20
+[33m  
+  [33mInvalid assignment target[33m
+  233|      const total = flatPoints.length
+  234|      flatPoints.forEach((fp, gi) => {
+  235|        const color = this.solidColor(prepared[fp.si].color) = clamp01(ctx.progress * total - gi)
+     |                      ^
+  236|        if (local <= 0) return
+  237|        pointNodes.push(
+  [39m
+      at failureErrorWithLog (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\esbuild\lib\main.js:1472:15)
+      at C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\esbuild\lib\main.js:755:50
+      at responseCallbacks.<computed> (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\esbuild\lib\main.js:622:9)
+      at handleIncomingPacket (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\esbuild\lib\main.js:677:12)
+      at Socket.readFromStdout (C:\Users\Administrator\.meituan-catpaw\3036078262\desk_default_workspace\kcharts\node_modules\esbuild\lib\main.js:600:7)
+      at Socket.emit (node:events:509:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m01:43:06[22m [31m[1m[vite][22m[39m Pre-transform error: Transform failed with 1 error:
+C:/Users/Administrator/.meituan-catpaw/3036078262/desk_default_workspace/kcharts/src/core/chart/scatter-chart.ts:235:20: ERROR: Invalid assignment target
+[2m01:43:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/k-scatter-chart.tsx[22m
+[2m01:44:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/site/ApiDocsBlock.vue[22m
+[2m01:44:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/site/ApiDocsBlock.vue[22m
+[2m01:44:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/site/ApiDocsBlock.vue[22m
+[2m01:45:09[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/site/ApiDocsBlock.vue[22m
+[2m01:45:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/site/ApiDocsBlock.vue[22m
+[2m01:47:57[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/site/registry.ts[22m

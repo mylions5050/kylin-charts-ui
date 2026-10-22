@@ -1,0 +1,60 @@
+{
+  "name": "kcharts",
+  "version": "0.1.0",
+  "description": "KCharts - 轻量级 Vue3 图表库（SVG 场景图驱动，全量 / 按需两种引入方式）",
+  "type": "module",
+  "keywords": [
+    "vue3",
+    "charts",
+    "chart",
+    "svg",
+    "typescript",
+    "lightweight",
+    "visualization"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist-lib",
+    "README.md"
+  ],
+  "main": "./dist-lib/kcharts.cjs.js",
+  "module": "./dist-lib/kcharts.es.js",
+  "types": "./dist-lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist-lib/index.d.ts",
+      "import": "./dist-lib/kcharts.es.js",
+      "require": "./dist-lib/kcharts.cjs.js"
+    },
+    "./style.css": "./dist-lib/style.css",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": [
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lib": "vite build --config vite.config.lib.ts && sass --no-source-map --style=compressed src/styles/chart.scss dist-lib/style.css"
+  },
+  "peerDependencies": {
+    "vue": ">=3.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "highlight.js": "^11.12.0",
+    "sass": "^1.77.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "^4.5.4",
+    "vue": "^3.4.27",
+    "vue-router": "^4.6.4"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "esbuild@0.21.5": true
+  }
+}
