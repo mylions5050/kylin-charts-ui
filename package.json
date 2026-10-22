@@ -37,7 +37,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lib": "vite build --config vite.config.lib.ts && sass --no-source-map --style=compressed src/styles/chart.scss dist-lib/style.css"
+    "lib": "vite build --config vite.config.lib.ts && sass --no-source-map --style=compressed src/styles/chart.scss dist-lib/style.css",
+    "deploy": "node scripts/deploy.mjs"
   },
   "peerDependencies": {
     "vue": ">=3.2.0"
@@ -51,10 +52,14 @@
     "vite": "^5.2.11",
     "vite-plugin-dts": "^4.5.4",
     "vue": "^3.4.27",
-    "vue-router": "^4.6.4"
+    "vue-router": "^4.6.4",
+    "wrangler": "^4.151.3"
   },
   "allowScripts": {
     "@parcel/watcher@2.6.0": true,
     "esbuild@0.21.5": true
+  },
+  "overrides": {
+    "@volar/typescript": "2.4.28"
   }
 }

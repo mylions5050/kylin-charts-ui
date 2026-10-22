@@ -2,5 +2,7 @@ node_modules
 dist
 dist-lib
 deploy/kcharts
+site.zip
+.cloudflare-token
 *.local
 .DS_Store
