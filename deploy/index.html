@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>KDesign · 前端组件家族</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    background: #f7f7fb;
+    color: #1f2333;
+    padding: 40px 24px;
+  }
+  .hero { text-align: center; }
+  .hero h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #7c5cfc, #00b4be);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .hero p { margin-top: 12px; font-size: 15px; color: #8a8f9e; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
+    gap: 20px;
+    width: 100%;
+    max-width: 920px;
+  }
+  a.card {
+    display: block;
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px 26px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 1px 4px rgba(31, 35, 51, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  a.card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(124, 92, 252, 0.14); }
+  .card h2 { font-size: 19px; color: #7c5cfc; }
+  .card p { margin-top: 10px; font-size: 13.5px; line-height: 1.7; color: #6b7080; }
+  .card .tag {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 12px;
+    color: #00b4be;
+    background: rgba(0, 180, 190, 0.08);
+    border-radius: 999px;
+    padding: 3px 12px;
+  }
+  .card.planned { opacity: 0.55; }
+  .card.planned h2 { color: #a2a7b5; }
+  .card.planned .tag { color: #a2a7b5; background: rgba(138, 143, 158, 0.1); }
+  footer { font-size: 13px; color: #b3b7c3; }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <h1>KDesign</h1>
+    <p>自研前端组件家族 · 轻量、开箱即用</p>
+  </div>
+  <div class="grid">
+    <a class="card" href="/kcharts/">
+      <h2>KCharts</h2>
+      <p>Vue3 + TypeScript 自研 SVG 图表库，覆盖折线、柱形、饼环、雷达、K 线等 30+ 图表，轻量开箱即用。</p>
+      <span class="tag">使用文档</span>
+    </a>
+    <div class="card planned">
+      <h2>UI 组件库</h2>
+      <p>通用基础组件库，规划中。</p>
+      <span class="tag">敬请期待</span>
+    </div>
+    <div class="card planned">
+      <h2>低代码平台</h2>
+      <p>问卷可视化编辑器与低代码搭建，规划中。</p>
+      <span class="tag">敬请期待</span>
+    </div>
+  </div>
+  <footer>kdesign-dev.com</footer>
+</body>
+</html>
