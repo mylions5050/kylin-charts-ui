@@ -4,8 +4,10 @@ import type { KChartTheme } from '@/core/theme'
 
 const THEME_KEY = 'kcharts-theme'
 
-/** 全局亮暗状态（模块级单例，所有调用方共享同一份） */
-const isDark = ref<boolean>(localStorage.getItem(THEME_KEY) === 'dark')
+/** 全局亮暗状态（模块级单例，所有调用方共享同一份）：默认暗色，用户手动切换过则跟随其持久化选择 */
+const isDark = ref<boolean>(
+  localStorage.getItem(THEME_KEY) ? localStorage.getItem(THEME_KEY) === 'dark' : true
+)
 
 // 状态 → DOM / 持久化：切换 <html class="dark"> 驱动壳层暗色样式（模块加载时立即同步一次）
 watch(
